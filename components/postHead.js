@@ -2,7 +2,6 @@ import Head from "next/head";
 import React from "react";
 
 function PostHead(props) {
-  console.log(props);
   return (
     <Head>
       <title>{props.title}</title>
